@@ -1,0 +1,175 @@
+:root {
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+    font-family: var(--main-fonts)
+}
+
+
+
+body {
+  font-size: 14px;
+  color: #212121;
+  font-family: "Roboto";
+}
+
+/* хедер */
+
+.logo {
+  color: var(--primary-text-lcolor);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1
+  letter-spacing: 0.03em;
+}
+
+.Web {
+  color:  #2196f3;
+}
+
+
+.link {
+  color: #212121;
+  font-weight: 500;
+  line-height: 1.1 
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #2196f3;
+}
+
+.link:focus {
+  color: #212121;
+}
+
+.link-nav {
+  color: #757575;
+  font-weight: 500;
+  line-height: 1.1
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.link-nav:hover {
+  color: #2196f3;
+}
+
+.link-nav:active {
+  color: #212121;
+}
+
+/*  перша секція */
+
+.main-section {
+  background-color: #2f303a;
+}
+
+.hidden {
+  color: #2f303a;
+}
+
+.main-title {
+  color: #ffffff;
+  font-size: 44px;
+  font-weight: 900;
+}
+
+.btn {
+  color: #fff;
+  background-color: #2196f3;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:active {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* друга секція */
+
+.section-text {
+  background-color: #f5f5f5;
+}
+
+.main-subject {
+  color: #f5f5f5;
+}
+.items {
+  list-style-type: none;
+}
+
+.subject {
+  color: #212121;
+  font-weight: 700;
+  line-height: 1.1
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.text {
+  color: #757575;
+  line-height: 1.7
+  letter-spacing: 0.03em;
+}
+
+/* третя секція*/
+
+.heading {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1
+  letter-spacing: 0.03em;
+}
+
+.desc {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.1
+  letter-spacing: 0.03em;
+}
+
+/* футер */
+
+.footer {
+  background-color: #2f303a;
+}
+
+/* портфоліо */
+
+.list-btn {
+  background-color: #f5f5f5;
+}
+
+.hidden-title {
+  color: #f5f5f5;
+}
+
+.button {
+  color: #212121;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.headline {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2
+  letter-spacing: 0.06em;
+}
+
+.desc-img {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.8
+  letter-spacing: 0.03em;
+}
